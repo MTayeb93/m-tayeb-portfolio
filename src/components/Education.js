@@ -59,7 +59,7 @@ const Education = () => {
             time={'2022-Present'}
             place={'Syrian Virtual University (SVU)'}
             info={
-              'Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial Intelligence.'
+              'Relevant courses Advanced Software Engineering, Advanced web development'
             }
           />
         </ul>

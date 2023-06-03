@@ -5,7 +5,12 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import project1 from '../../public/images/projects/crypto-screener-cover-image.jpg'
+import project1 from '../../public/images/projects/Frontliners.png'
+import project2 from '../../public/images/projects/edSeed.png'
+import project3 from '../../public/images/projects/vip.png'
+import project4 from '../../public/images/projects/promptopia.png'
+import project5 from '../../public/images/projects/comfy_sloth.png'
+import project6 from '../../public/images/projects/moviesDB.png'
 import { motion } from 'framer-motion'
 import TransitionEffect from '@/components/TransitionEffect'
 
@@ -82,7 +87,7 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
         <FramerImage
           src={img}
           alt={title}
-          className='w-full h-auto'
+          className='w-full h-auto border-2 rounded-md border-black'
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.2 }}
           priority
@@ -136,10 +141,9 @@ const Projects = () => {
           <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'>
             <div className='col-span-12'>
               <FeaturedProject
-                title='Crypto Screener Application'
-                summary='A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-             It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency.'
-                link='/'
+                title='Frontliners AI'
+                summary='Shift planning system, Employee assessment, Employee training.'
+                link='https://frontliners.ai/'
                 github='/'
                 img={project1}
                 type='Featured Project'
@@ -147,48 +151,48 @@ const Projects = () => {
             </div>
             <div className='col-span-6 sm:col-span-12'>
               <Project
-                title='Crypto Screener Application'
-                link='/'
-                github='/'
-                img={project1}
+                title='Full Stack App Using Next JS 13 Framework'
+                link='https://nextjs-promptopia.netlify.app/'
+                github='https://github.com/MTayeb93/nextJs-Promptopia-project'
+                img={project4}
                 type='Featured Project'
               />
             </div>
             <div className='col-span-6 sm:col-span-12'>
               <Project
-                title='Crypto Screener Application'
-                link='/'
+                title='Comfy Sloth'
+                link='https://react-course-comfy-sloth-store.netlify.app/products'
                 github='/'
-                img={project1}
+                img={project5}
                 type='Featured Project'
               />
             </div>
             <div className='col-span-12'>
               <FeaturedProject
-                title='Crypto Screener Application'
-                summary='A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-             It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency.'
+                title='Very Important Projects Fund'
+                summary='A feature-rich Crowdfunding platform, WordPress, React, React Router and Recharts. 
+             '
                 link='/'
                 github='/'
-                img={project1}
+                img={project3}
                 type='Featured Project'
               />
             </div>
             <div className='col-span-6 sm:col-span-12'>
               <Project
-                title='Crypto Screener Application'
-                link='/'
+                title='Crowdfunding Platform'
+                link='https://www.edseed.me/'
                 github='/'
-                img={project1}
+                img={project2}
                 type='Featured Project'
               />
             </div>
             <div className='col-span-6 sm:col-span-12'>
               <Project
-                title='Crypto Screener Application'
-                link='/'
+                title='Movies DB'
+                link='https://react-projects-21-movie-db.netlify.app/'
                 github='/'
-                img={project1}
+                img={project6}
                 type='Featured Project'
               />
             </div>

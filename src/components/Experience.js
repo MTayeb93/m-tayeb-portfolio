@@ -61,7 +61,7 @@ const Experience = () => {
             company={'vip.Fund'}
             companyLink={'https://www.vip.fund/'}
             time={'2021-2022 '}
-            address={'Hermosa Beach, CA 90254'}
+            address={'USA, Delaware'}
             work={
               'Translating Figma designs into responsive web pages by utilizing Wordpress / Divi theme and latest technologies of CSS3 and HTML5.'
             }
@@ -81,7 +81,7 @@ const Experience = () => {
             company={'edSeed'}
             companyLink={'https://www.edseed.me/'}
             time={'2022-Present '}
-            address={'Mountain View, CA'}
+            address={'USA, Delaware'}
             work={
               "Contribute in Developing, or refactoring, and documenting the frontend. Design, develop, and implement features using Vue JS to improve the system. Build reusable code and libraries for future use. Translating Figma designs into responsive web pages by utilizing React JS / HTML / CSS"
             }
